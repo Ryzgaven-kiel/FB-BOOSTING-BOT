@@ -3,14 +3,14 @@
       "BOT_INFO": {
          "PREFIX": ".",
          "ADMIN_ID": [
-         "100089164803882"
+         "100088350665764"
          ],
-         "EMAIL": "EMAIL/PHONE NUMBER/ID",
-         "PASSWORD": "PASSWORD"
+         "EMAIL": "foletak200@gaines.com",
+         "PASSWORD": "botkirito1"
       },
       "PAGE_ACCOUNTS": {
          "ACCOUNTS": [
-            "EMAIL|PASS"
+            "foletak200@gaines.com|botkirito1"
          ]
       }
    }
