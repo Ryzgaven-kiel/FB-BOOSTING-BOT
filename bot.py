@@ -156,13 +156,13 @@ class MessBot(Client):
             msg = message_object.text.lower()
             rainbow_light_text_print("[ [ MESSAGE ] ] " + msg)
             prefix = str(configuration['CONFIG']['BOT_INFO']['PREFIX'])
-            prefixs = ("prefix", "PREFIX", "Mahiro", "MAHIRO", "Prefix")
+            prefixs = ("prefix", "PREFIX", "kirito", "Kirito", "Prefix")
             if any(msg.startswith(prefix) for prefix in prefixs):
             	reply = f"𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴:\n- {prefix}𝚏𝚋𝚏𝚘𝚕𝚕𝚘𝚠 [𝚒𝚍]\n- {prefix}𝚏𝚋𝚛𝚎𝚊𝚌𝚝 [𝙻𝙸𝙺𝙴/𝙻𝙾𝚅𝙴/𝚂𝙰𝙳/𝙰𝙽𝙶𝚁𝚈/𝙷𝙰𝙷𝙰] [𝚕𝚒𝚗𝚔]\n\n𝙼𝚊𝚔𝚎 𝚜𝚞𝚛𝚎 𝚝𝚑𝚊𝚝 𝚝𝚑𝚎 𝚕𝚒𝚗𝚔 𝚢𝚘𝚞'𝚛𝚎 𝚞𝚜𝚒𝚗𝚐 𝚒𝚜 𝚏𝚛𝚘𝚖 𝚏𝚋𝚕𝚒𝚝𝚎 𝚘𝚛 𝚎𝚕𝚜𝚎 𝚒𝚝 𝚖𝚒𝚐𝚑𝚝 𝚗𝚘𝚝 𝚠𝚘𝚛𝚔.\n\n𝚃𝚢𝚙𝚎 '{prefix}𝚕𝚒𝚜𝚝' 𝚝𝚘 𝚜𝚑𝚘𝚠 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜."
             	self.sendmessage(author_id, thread_id, thread_type, reply)
             dev = ("dev", "owner", "Owner", "Developer", "developer", "OWNER", "DEVELOPER", "DEV")
             if any(msg.startswith(word) for word in dev):
-                reply = "𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: 𝙼𝙰𝙷𝙸𝚁𝙾 𝙲𝙷𝙰𝙽"
+                reply = "𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: JCO"
                 self.sendmessage(author_id, thread_id, thread_type, reply)
             greetings = ("hi", "Hi", "hello", "Hello", "hi!", "Hi!", "hello!", "Hello!")
             if any(msg.startswith(greeting) for greeting in greetings):
